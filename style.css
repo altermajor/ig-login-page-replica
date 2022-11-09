@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: visible;
+    font-family: sans-serif;
+}
+
+.separator{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#phone-layout{
+    margin-right: 20px;
+}
+
+#form-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1.5px rgba(0, 0, 0, 0.176);
+    padding: 40px 40px 20px 40px;
+    width: 350px;
+}
+
+#logo{
+    height: 70px;
+    width: auto;
+    margin-bottom: 25px;
+}
+
+input{
+    font-size: 12px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: solid 1.5px rgba(0, 0, 0, 0.176);
+    border-radius: 3.5px;
+}
+
+
+
+.save-info{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.save-info  input{
+background: none;
+padding: 1px 1px;
+height: 15px;
+width: 15px;
+margin-left: -165px;
+border: solid 1.5px rgba(0, 0, 0, 0.101);
+border-radius: 1px;
+margin-right: 5px;
+cursor: pointer;
+}
+
+.save-info p{
+    font-size: 12px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.903);
+    font-weight: lighter;
+}
+
+#login-btn{
+    margin-top: 20px;
+    color: white;
+    background-color: lightblue;
+    border: none;
+    font-size: 14px;
+    padding: 10px 0px;
+    width: 100%;
+    border-radius: 3.5px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#alt-text{
+    display: flex;
+}
+
+.or{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.372);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.alt-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.login-facebook{
+    font-size: 14px;
+    color: RGB(56, 81, 133);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#forgot-password{
+    font-size: 12px;
+    color: RGB(0, 55, 107);
+    font-weight: 500;
+}
+
+.extra-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1.5px rgba(0, 0, 0, 0.176);
+    padding: 20px 40px 20px 40px;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.extra-signup p{
+    font-size: 14px;
+}
+
+.extra-signup a{
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+  
+}
+
+.get-the-app{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#download-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#download-links img{
+    margin: 0px 5px 0px 5px;
+}
